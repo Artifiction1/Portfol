@@ -18,7 +18,7 @@ function PageOne(props) {
                 <div className="d-flex text-black">
                   <div className="flex-shrink-0">
                     <MDBCardImage
-                      style={{ width: '180px', height:"180px", borderRadius: '10px' }}
+                      style={{ width: '180px', height:"160px", borderRadius: '10px' }}
                       src='https://res.cloudinary.com/artifcloud/image/upload/v1683614665/1111_rvfc1t.jpg'
                       alt='Generic placeholder image'
                       />
@@ -140,60 +140,10 @@ function PageOne(props) {
       <div ><div style={{backgroundImage:"url('https://res.cloudinary.com/artifcloud/image/upload/v1681888687/zOv8ox_k9puhb.jpg')", backgroundSize:"cover", height:"820px"}}>
         <MDBContainer>
           <MDBRow className="pt-3">
-            <MDBCol>
-            <MDBCard background='danger' style={{backgroundColor:"transparent"}} className='text-white mb-5'>
-        <MDBCardBody>
-          <MDBCardTitle>Education</MDBCardTitle>
-          <MDBListGroup>
-        <MDBListGroupItem style={{backgroundColor:"transparent", color:"white"}}>Epicode</MDBListGroupItem>
-        <MDBListGroupItem style={{backgroundColor:"transparent", color:"white"}}>Riga Technical University</MDBListGroupItem>
-        <MDBListGroupItem style={{backgroundColor:"transparent", color:"white"}}>University of Daugavpils</MDBListGroupItem>
-      </MDBListGroup>
-        </MDBCardBody>
-      </MDBCard>
-      <MDBCard background='warning' className='text-black' style={{marginTop:"30%"}}>
-        <MDBCardBody>
-          <MDBCardTitle>Work Experience</MDBCardTitle>
-          <MDBListGroup>
-        <MDBListGroupItem style={{backgroundColor:"transparent", color:"black"}}>Maxima</MDBListGroupItem>
-        <MDBListGroupItem style={{backgroundColor:"transparent", color:"black"}}>Forum Cinemas</MDBListGroupItem>
-        <MDBListGroupItem style={{backgroundColor:"transparent", color:"black"}}>Riga 1st Hospital</MDBListGroupItem>
-      </MDBListGroup>
-        </MDBCardBody>
-      </MDBCard>
-      <MDBCard background='warning' className='text-black' style={{marginTop:"30%"}}>
-        <MDBCardBody>
-          <MDBCardTitle>Hobbies</MDBCardTitle>
-          <MDBListGroup>
-        <MDBListGroupItem style={{backgroundColor:"transparent", color:"black"}}>Movies</MDBListGroupItem>
-        <MDBListGroupItem style={{backgroundColor:"transparent", color:"black"}}>Camping</MDBListGroupItem>
-        <MDBListGroupItem style={{backgroundColor:"transparent", color:"black"}}>Reading</MDBListGroupItem>
-      </MDBListGroup>
-        </MDBCardBody>
-      </MDBCard>
-            </MDBCol>
-            <MDBCol>
-            <MDBCard background='primary' className='text-black' style={{marginTop:"40%"}}>
-        <MDBCardBody>
-          <MDBCardTitle>Positives</MDBCardTitle>
-          <MDBListGroup>
-        <MDBListGroupItem style={{backgroundColor:"transparent", color:"black"}}>Hard Working</MDBListGroupItem>
-        <MDBListGroupItem style={{backgroundColor:"transparent", color:"black"}}>Quick Learner</MDBListGroupItem>
-        <MDBListGroupItem style={{backgroundColor:"transparent", color:"black"}}>Addaptive</MDBListGroupItem>
-      </MDBListGroup>
-        </MDBCardBody>
-      </MDBCard>
-      <MDBCard background='secondary' className='text-black' style={{marginTop:"40%"}}>
-        <MDBCardBody>
-          <MDBCardTitle>Negatives</MDBCardTitle>
-          <MDBListGroup>
-        <MDBListGroupItem style={{backgroundColor:"transparent", color:"black"}}>Distractable</MDBListGroupItem>
-        <MDBListGroupItem style={{backgroundColor:"transparent", color:"black"}}>Tend To Overestimate</MDBListGroupItem>
-        <MDBListGroupItem style={{backgroundColor:"transparent", color:"black"}}>Slow Starter</MDBListGroupItem>
-      </MDBListGroup>
-        </MDBCardBody>
-      </MDBCard>
-            </MDBCol>
+          <img src="https://res.cloudinary.com/artifcloud/image/upload/v1683616245/me_ifzoiy.png"></img>
+          <img src="https://res.cloudinary.com/artifcloud/image/upload/v1683616245/Edu_tsj6iq.png"></img>
+          <img src="https://res.cloudinary.com/artifcloud/image/upload/v1683616245/work_jrotqv.png"></img>
+          
           </MDBRow>
           </MDBContainer></div></div>
       <div><img src="https://res.cloudinary.com/artifcloud/image/upload/v1680677610/Linkedin/Untitled-1_bfko8i.jpg" width={600} /><div  style={{backgroundImage:"url('https://res.cloudinary.com/artifcloud/image/upload/v1681888687/zOv8ox_k9puhb.jpg')", height:"820px", borderRight:"solid", padding:"100px"}} className="demoPage">this was our group project where we attempted to recreate spotify frontend as close as we could. We used Html, Css, Bootstrap and react in this. Serverside was taken from radi api</div></div>
