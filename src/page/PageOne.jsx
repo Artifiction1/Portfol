@@ -19,7 +19,7 @@ function PageOne(props) {
                   <div className="flex-shrink-0">
                     <MDBCardImage
                       style={{ width: '180px', height:"180px", borderRadius: '10px' }}
-                      src='https://res.cloudinary.com/artifcloud/image/upload/v1681885077/WhatsApp_Image_2023-02-05_at_20.30.29_copy_qanj5l.jpg'
+                      src='https://res.cloudinary.com/artifcloud/image/upload/v1683614665/1111_rvfc1t.jpg'
                       alt='Generic placeholder image'
                       />
                   </div>
